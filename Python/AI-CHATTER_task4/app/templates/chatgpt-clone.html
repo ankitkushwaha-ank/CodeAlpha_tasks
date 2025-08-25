@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChatGPT Clone</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="icon" href="/static/img/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="chat-header">
+      <div class="header-left">
+        <h1>ChatGPT</h1>
+      </div>
+      <div class="user-auth">
+        <a href="#" class="auth-btn">+ Get Plus</a>
+        <div class="user-icon">
+          <img src="/static/img/avatar.png" alt="Avatar" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Area -->
+    <div class="chat-body">
+      <div class="chat-history">
+        <div class="message ai">Hello! What can I help you with today?</div>
+        <div class="message user">Can you help me build a chatbot UI?</div>
+      </div>
+    </div>
+
+    <!-- Chat Input -->
+    <div class="chat-input-area">
+      <form class="chat-form">
+        <input type="text" placeholder="Message ChatGPT..." />
+        <button type="submit" class="send-btn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13" />
+            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

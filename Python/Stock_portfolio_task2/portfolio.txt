@@ -1,0 +1,6 @@
+AAPL: 123 shares × $180 = $22140
+GOOGL: 653 shares × $140 = $91420
+MSFT: 78 shares × $310 = $24180
+TSLA: 120 shares × $250 = $30000
+
+Total Investment: $167740
